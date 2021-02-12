@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Labas, Dorote.</h1>
+
+<button type="button" onclick="Paspausk()">Paspausk</button>
+<button type="button" onclick="Nespausk()">Nespausk</button>
+<script>
+function Paspausk() {
+  document.write("<h1>Vaziuojam i Rietava? :)))</h1> ");
+}
+function Nespausk() {
+  document.write("<h1>8===o</h1>");
+}
+</script>
+
+</body>
+</html>
