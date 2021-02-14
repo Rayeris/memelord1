@@ -1,0 +1,266 @@
+.WebContainer{
+    width: 100%;
+    height: auto;
+}
+.articles{
+    width:90%; /*Takes 90% width from WebContainer*/
+    height: auto;
+    margin: auto;
+}
+
+
+
+
+
+   
+
+    body {
+    overflow:auto;
+    animation-name:"max";
+    animation-duration:0.4s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    z-index:10;
+    
+background-image: radial-gradient(white 15%, transparent 16%),
+radial-gradient(white 15%, transparent 16%);
+background-size: 60px 60px;
+background-position: 0 0, 30px 30px;
+    }
+
+    @keyframes max{
+            0% {
+                background-color:pink;
+      }
+      11% {
+        background-color:rgb(132, 1, 255)
+      }
+      15% {
+        background-color:rgb(255, 238, 0)
+      }
+      30% {
+        background-color:rgba(66,99,33,1)
+      }
+
+        33% { 
+            background-color:rgba(20,30,40,1)
+        }
+        39% {
+            background-color:rgba(90,90,90,1)
+        }
+        55% {
+            background-color:rgba(20,30,40,1)
+
+        }
+         66% {
+             background-color:rgba(11,32,51,1)
+         }
+         100% {
+             background-color:pink;
+         }
+    
+    
+    
+    }
+    
+    
+    
+
+button:hover {
+color:pink;
+transform:scale(1.15);
+
+}
+
+  .picture {
+      margin:top;
+    z-index:2;
+    align-items:center;
+    animation-name:"bax";
+    animation-duration:3s;
+    animation-iteration-count:infinite;
+    animation-timing-function:ease;
+    pointer-events: none;
+    cursor:default;
+    }
+@keyframes bax{
+    0% {
+        opacity:10%;
+        transform:scale(0.01);
+        transform:rotate(35deg);
+              
+     }
+
+25% {
+    opacity:100%;
+    transform:rotate(70deg);
+    transform:scale(2.5)
+}
+
+50%  {
+    opacity:25%;
+    transform:scale(5);
+    transform:rotate(180deg);
+   
+}
+100% {
+    opacity:13%;
+    transform:scale(10);
+    transform:rotate(360deg);
+    
+}
+}
+
+
+}
+.boxbox2 {
+    color: rgb(235, 255, 161);
+    margin:auto;
+    text-align:center;
+    padding:80px; 
+    font-family:'Courier New', Courier, monospace;
+    background-color:rgba(0, 89, 255, 0.219);
+ 
+}
+.boxbox1 {
+    color: rgb(235, 255, 161);
+    margin:auto;
+    text-align:center;
+    padding:60px;
+    animation-name:"traukuliai";
+    animation-duration:0.5s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear; 
+    font-family:'Courier New', Courier, monospace;
+    background-color:rgba(136, 32, 255, 0.219);
+
+}
+
+.box1 {   
+    
+    color: rgb(235, 255, 161);
+    margin:auto;
+    text-align:center;
+    padding:10px;
+    animation-name:"traukuliai";
+    animation-duration:0.5s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear; 
+    font-family:'Courier New', Courier, monospace;
+    background-color:rgba(195, 0, 255, 0.171);
+    
+
+}
+
+@keyframes traukuliai{
+    0% { 
+        color:chartreuse;
+
+    }
+10% {
+    color:cyan;
+}
+20% {
+    color:yellow;
+}
+30% {
+    color:darkorchid;
+}  
+}
+.button {
+    width:20px;
+    height:10px;
+    box-shadow:brown;
+    text-decoration-color:burlywood;
+}
+.container {
+        width:800px;
+        
+        margin:auto;
+        border-radius:10%;
+        opacity:66%;
+        z-index:1;
+        height:1400px;
+}
+@keyframes container{
+    50% {background-color: rgba(5, 210, 218, 0.582);}
+
+    100% { background-color: rgba(2,110,20,1);}
+
+}
+
+.box2 {
+        background-color: rgba(6, 83, 51, 0.712);
+        width:500px;
+        color:rgba(251, 255, 0);
+        margin:auto;
+        text-align:center;
+        border-radius:20px;
+        
+
+    }
+   
+    
+.box3 {
+        background-color: rgba(1, 65, 129, 0.61);
+        width:420px;
+        height:300px;
+        color:rgb(5, 122, 177);
+        margin:auto;
+        border-radius:5px;
+        
+        text-align:center;
+        font-family:Tahoma, sans-serif;
+        padding: 5px;
+        opacity:25%;
+        text-decoration-color:cadetblue;
+
+    }
+.maxassoka {
+height:auto;
+width:auto;
+margin:center;
+opacity:85%
+
+}
+    .mongol {
+  display: block;
+  margin: auto;
+  width: 150%;
+
+    }
+
+    .box4 {
+        color:white;
+        background-color:rgba(0, 214, 203, 0.315);
+        width: 400px;
+        height:150px;
+        opacity:35%;
+        margin:150px;
+       
+        text-align:center;
+        margin:auto;   
+     }
+    img {
+        width: 100%;
+        height: 700px;
+        border-radius:650px;
+        text-decoration: none;
+        pointer-events: none;
+        cursor:default;
+    }
+   
+    
+    a {
+        text-decoration:aquamarine;
+        color:rgb(66, 7, 105);
+    }
+    a:hover{
+        color:red;
+    }
+    a:active{
+        color:orange;
+    }
+    a:visited{
+        color:purple;
+    }
